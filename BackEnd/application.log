@@ -195,3 +195,31 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2026-03-17T19:42:30.300+05:30 ERROR 2488 --- [http-nio-8080-exec-6] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:12:30Z, a difference of 260621300 milliseconds.  Allowed clock skew: 0 milliseconds.
 2026-03-17T19:42:30.301+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
 2026-03-17T19:42:30.301+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T19:58:36.948+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T19:58:36.956+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T19:58:36.992+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T19:58:37.040+05:30 ERROR 2488 --- [http-nio-8080-exec-1] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:28:37Z, a difference of 261588040 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T19:58:37.043+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:58:37.044+05:30 DEBUG 2488 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T19:58:37.102+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T19:58:37.132+05:30 ERROR 2488 --- [http-nio-8080-exec-3] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:28:37Z, a difference of 261588132 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T19:58:37.132+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T19:58:37.134+05:30 DEBUG 2488 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:01:03.843+05:30 DEBUG 2488 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:01:03.843+05:30 DEBUG 2488 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/products
+2026-03-17T20:01:03.852+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:01:03.857+05:30 ERROR 2488 --- [http-nio-8080-exec-9] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:31:03Z, a difference of 261734857 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:01:03.857+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.859+05:30 DEBUG 2488 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2026-03-17T20:01:03.866+05:30 DEBUG 2488 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /api/cart
+2026-03-17T20:01:03.872+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/cart
+2026-03-17T20:01:03.875+05:30 ERROR 2488 --- [http-nio-8080-exec-2] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:31:03Z, a difference of 261734875 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:01:03.875+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2026-03-17T20:01:03.875+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.878+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-03-17T20:01:03.879+05:30 ERROR 2488 --- [http-nio-8080-exec-10] com.ecommerce.config.JwtUtils            : JWT token is expired: JWT expired at 2026-03-14T13:48:49Z. Current time: 2026-03-17T14:31:03Z, a difference of 261734879 milliseconds.  Allowed clock skew: 0 milliseconds.
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-17T20:01:03.879+05:30 DEBUG 2488 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/products
