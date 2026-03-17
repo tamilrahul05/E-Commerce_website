@@ -1,7 +1,0 @@
-{
-    "name": "ecommerce-root",
-    "private": true,
-    "scripts": {
-        "build": "cd FrontEnd && npm install && npm run build && cd .. && rm -rf public && cp -r FrontEnd/dist ./public"
-    }
-}
